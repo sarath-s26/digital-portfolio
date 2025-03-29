@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Added rounded corners */
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #7d8c4f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Added border-radius for a circular profile image */
+}
+
+h2, h3 {
+    color: brown;
+    font-size: 1.2em; /* Adjusted font size for headings in the sidebar */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 5px 0;
+    font-size: 1em; /* Added font size for list items in the sidebar */
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    border-bottom: 2px solid #7d8c4f;
+    padding-bottom: 5px;
+    font-size: 1.5em; /* Adjusted font size for the main content heading */
+}
+
+.main-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px; /* Added padding to properly align the list */
+}
+
+.main-content ul li {
+    font-size: 1em; /* Ensures that list items are well-sized in main content */
+}</style>
+</head>
+<body>
+    <div class="resume">
+        <div class="sidebar">
+            <img src="sarath.jpg" alt="Profile Picture" class="profile-img">
+            <h2>SARATH S</h2>
+            <p>Address:Palakkad,india 678504</p>
+            <p>mob:7994287002</p>
+            <p>email:djsarath99@gmail.com</p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Java Programming</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>Visual Basic</li>
+                <li>SQL</li>
+            </ul>
+
+            <h3>Personal Details</h3>
+            <p>Date of Birth:21/06/2001</p>
+	<p>Father's name:sukumaran k</p>
+	<p>Gender:male</p>
+	<p>Marital status:single</p>
+	<p>Religion:Hindu</p>
+            <p>Nationality:Indian</p>
+            <h3>Languages</h3>
+            <ul>
+                <li>English</li>
+                <li>Malayalam</li>
+                <li>Hindi</li>
+                <li>Tamil</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+	<h2>Profile Summary</h2>
+<p>A dedicated and results-driven Bachelor of Computer Applications (BCA) graduate with a solid foundation in computer programming, software development, and database management. Skilled in programming languages such as Java, C++, Python, and web technologies like HTML, CSS, and JavaScript. Experienced in developing and maintaining software applications, troubleshooting issues, and optimizing system performance. Possess strong problem-solving abilities and a keen interest in learning new technologies. Seeking to leverage my skills in a challenging role to contribute to organizational success while enhancing my expertise in the field of information technology.
+	
+	<h2>Career Objective</h2>
+<p>As i am studying with a Bachelor’s degree in Computer Applications, I am eager to apply my technical skills in software development, programming, and IT solutions to contribute to the growth of a forward-thinking organization. I possess a strong foundation in coding languages like Java, C++, and Python, along with expertise in database management and web development. I am looking for an opportunity to enhance my skills in a dynamic work environment, where I can contribute to innovative projects while continuously learning and growing within the field of information technology.
+
+            <h2>Professional Experience</h2>
+            <h3>Internship - Safe Technology, Palakkad, India</h3>
+            <ul>
+                <li>Sorted and organized files, spreadsheets, and reports.</li>
+                <li>Analyzed problems and worked with teams to develop solutions.</li>
+                <li>Prepared project presentations and reports to assist senior staff.</li>
+                <li>Explored new technologies and approaches to streamline processes.</li>
+            </ul>
+
+            <h2>Education</h2>
+            <p>Sree Narayana Guru collage<br>
+Bharathiyar University<br> 
+Bachelor of Computer Application<br> 
+Relevent Course -Introduction to computing, program fundamentals, object Oriental paradigm, data structures, database management system, Java, Linux, C,C++, web programming, digital fundamentals and computer and architecture and discrete mathematics.</p>
+
+
+           
+
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Web designing</li>
+                <li>Reading books</li>
+                <li>Playing games</li>
+                <li>Browsing</li>
+            </ul>
+        </div>
+    </div>
+
+<section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="C:\Users\djsar\Downloads\Resume1.docx" download>Download Word Document</a>
+
+        </center>
+        </div>
+        
+    </section>
+
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
